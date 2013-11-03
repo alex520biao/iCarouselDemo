@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1C6C45A1826062E007D6E4F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C6C4591826062E007D6E4F /* UIKit.framework */; };
+		E1C6C45C1826062E007D6E4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C6C45B1826062E007D6E4F /* Foundation.framework */; };
+		E1C6C45E1826062E007D6E4F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C6C45D1826062E007D6E4F /* CoreGraphics.framework */; };
+		E1C6C4641826062E007D6E4F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1C6C4621826062E007D6E4F /* InfoPlist.strings */; };
+		E1C6C4661826062E007D6E4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C6C4651826062E007D6E4F /* main.m */; };
+		E1C6C46A1826062E007D6E4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C6C4691826062E007D6E4F /* AppDelegate.m */; };
+		E1C6C46C1826062E007D6E4F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C6C46B1826062E007D6E4F /* Default.png */; };
+		E1C6C46E1826062E007D6E4F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C6C46D1826062E007D6E4F /* Default@2x.png */; };
+		E1C6C4701826062E007D6E4F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C6C46F1826062E007D6E4F /* Default-568h@2x.png */; };
+		E1C6C4731826062E007D6E4F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C6C4721826062E007D6E4F /* ViewController.m */; };
+		E1C6C4761826062E007D6E4F /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1C6C4741826062E007D6E4F /* ViewController.xib */; };
+		E1C6C47E1826062E007D6E4F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C6C47D1826062E007D6E4F /* SenTestingKit.framework */; };
+		E1C6C47F1826062E007D6E4F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C6C4591826062E007D6E4F /* UIKit.framework */; };
+		E1C6C4801826062E007D6E4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C6C45B1826062E007D6E4F /* Foundation.framework */; };
+		E1C6C4881826062E007D6E4F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1C6C4861826062E007D6E4F /* InfoPlist.strings */; };
+		E1C6C48B1826062E007D6E4F /* iCarouselDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C6C48A1826062E007D6E4F /* iCarouselDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1C6C4811826062E007D6E4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1C6C44E1826062E007D6E4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1C6C4551826062E007D6E4F;
+			remoteInfo = iCarouselDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E1C6C4561826062E007D6E4F /* iCarouselDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCarouselDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1C6C4591826062E007D6E4F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E1C6C45B1826062E007D6E4F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E1C6C45D1826062E007D6E4F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E1C6C4611826062E007D6E4F /* iCarouselDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iCarouselDemo-Info.plist"; sourceTree = "<group>"; };
+		E1C6C4631826062E007D6E4F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E1C6C4651826062E007D6E4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1C6C4671826062E007D6E4F /* iCarouselDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iCarouselDemo-Prefix.pch"; sourceTree = "<group>"; };
+		E1C6C4681826062E007D6E4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E1C6C4691826062E007D6E4F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E1C6C46B1826062E007D6E4F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E1C6C46D1826062E007D6E4F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E1C6C46F1826062E007D6E4F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E1C6C4711826062E007D6E4F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E1C6C4721826062E007D6E4F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E1C6C4751826062E007D6E4F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		E1C6C47C1826062E007D6E4F /* iCarouselDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCarouselDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1C6C47D1826062E007D6E4F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E1C6C4851826062E007D6E4F /* iCarouselDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iCarouselDemoTests-Info.plist"; sourceTree = "<group>"; };
+		E1C6C4871826062E007D6E4F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E1C6C4891826062E007D6E4F /* iCarouselDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iCarouselDemoTests.h; sourceTree = "<group>"; };
+		E1C6C48A1826062E007D6E4F /* iCarouselDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iCarouselDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1C6C4531826062E007D6E4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C6C45A1826062E007D6E4F /* UIKit.framework in Frameworks */,
+				E1C6C45C1826062E007D6E4F /* Foundation.framework in Frameworks */,
+				E1C6C45E1826062E007D6E4F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1C6C4781826062E007D6E4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C6C47E1826062E007D6E4F /* SenTestingKit.framework in Frameworks */,
+				E1C6C47F1826062E007D6E4F /* UIKit.framework in Frameworks */,
+				E1C6C4801826062E007D6E4F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1C6C44D1826062E007D6E4F = {
+			isa = PBXGroup;
+			children = (
+				E1C6C45F1826062E007D6E4F /* iCarouselDemo */,
+				E1C6C4831826062E007D6E4F /* iCarouselDemoTests */,
+				E1C6C4581826062E007D6E4F /* Frameworks */,
+				E1C6C4571826062E007D6E4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1C6C4571826062E007D6E4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1C6C4561826062E007D6E4F /* iCarouselDemo.app */,
+				E1C6C47C1826062E007D6E4F /* iCarouselDemoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1C6C4581826062E007D6E4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1C6C4591826062E007D6E4F /* UIKit.framework */,
+				E1C6C45B1826062E007D6E4F /* Foundation.framework */,
+				E1C6C45D1826062E007D6E4F /* CoreGraphics.framework */,
+				E1C6C47D1826062E007D6E4F /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1C6C45F1826062E007D6E4F /* iCarouselDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E1C6C4681826062E007D6E4F /* AppDelegate.h */,
+				E1C6C4691826062E007D6E4F /* AppDelegate.m */,
+				E1C6C4711826062E007D6E4F /* ViewController.h */,
+				E1C6C4721826062E007D6E4F /* ViewController.m */,
+				E1C6C4741826062E007D6E4F /* ViewController.xib */,
+				E1C6C4601826062E007D6E4F /* Supporting Files */,
+			);
+			path = iCarouselDemo;
+			sourceTree = "<group>";
+		};
+		E1C6C4601826062E007D6E4F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1C6C4611826062E007D6E4F /* iCarouselDemo-Info.plist */,
+				E1C6C4621826062E007D6E4F /* InfoPlist.strings */,
+				E1C6C4651826062E007D6E4F /* main.m */,
+				E1C6C4671826062E007D6E4F /* iCarouselDemo-Prefix.pch */,
+				E1C6C46B1826062E007D6E4F /* Default.png */,
+				E1C6C46D1826062E007D6E4F /* Default@2x.png */,
+				E1C6C46F1826062E007D6E4F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1C6C4831826062E007D6E4F /* iCarouselDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1C6C4891826062E007D6E4F /* iCarouselDemoTests.h */,
+				E1C6C48A1826062E007D6E4F /* iCarouselDemoTests.m */,
+				E1C6C4841826062E007D6E4F /* Supporting Files */,
+			);
+			path = iCarouselDemoTests;
+			sourceTree = "<group>";
+		};
+		E1C6C4841826062E007D6E4F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1C6C4851826062E007D6E4F /* iCarouselDemoTests-Info.plist */,
+				E1C6C4861826062E007D6E4F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1C6C4551826062E007D6E4F /* iCarouselDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1C6C48E1826062E007D6E4F /* Build configuration list for PBXNativeTarget "iCarouselDemo" */;
+			buildPhases = (
+				E1C6C4521826062E007D6E4F /* Sources */,
+				E1C6C4531826062E007D6E4F /* Frameworks */,
+				E1C6C4541826062E007D6E4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCarouselDemo;
+			productName = iCarouselDemo;
+			productReference = E1C6C4561826062E007D6E4F /* iCarouselDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1C6C47B1826062E007D6E4F /* iCarouselDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1C6C4911826062E007D6E4F /* Build configuration list for PBXNativeTarget "iCarouselDemoTests" */;
+			buildPhases = (
+				E1C6C4771826062E007D6E4F /* Sources */,
+				E1C6C4781826062E007D6E4F /* Frameworks */,
+				E1C6C4791826062E007D6E4F /* Resources */,
+				E1C6C47A1826062E007D6E4F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1C6C4821826062E007D6E4F /* PBXTargetDependency */,
+			);
+			name = iCarouselDemoTests;
+			productName = iCarouselDemoTests;
+			productReference = E1C6C47C1826062E007D6E4F /* iCarouselDemoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1C6C44E1826062E007D6E4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = alex;
+			};
+			buildConfigurationList = E1C6C4511826062E007D6E4F /* Build configuration list for PBXProject "iCarouselDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E1C6C44D1826062E007D6E4F;
+			productRefGroup = E1C6C4571826062E007D6E4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1C6C4551826062E007D6E4F /* iCarouselDemo */,
+				E1C6C47B1826062E007D6E4F /* iCarouselDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1C6C4541826062E007D6E4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C6C4641826062E007D6E4F /* InfoPlist.strings in Resources */,
+				E1C6C46C1826062E007D6E4F /* Default.png in Resources */,
+				E1C6C46E1826062E007D6E4F /* Default@2x.png in Resources */,
+				E1C6C4701826062E007D6E4F /* Default-568h@2x.png in Resources */,
+				E1C6C4761826062E007D6E4F /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1C6C4791826062E007D6E4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C6C4881826062E007D6E4F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E1C6C47A1826062E007D6E4F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1C6C4521826062E007D6E4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C6C4661826062E007D6E4F /* main.m in Sources */,
+				E1C6C46A1826062E007D6E4F /* AppDelegate.m in Sources */,
+				E1C6C4731826062E007D6E4F /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1C6C4771826062E007D6E4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C6C48B1826062E007D6E4F /* iCarouselDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1C6C4821826062E007D6E4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1C6C4551826062E007D6E4F /* iCarouselDemo */;
+			targetProxy = E1C6C4811826062E007D6E4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E1C6C4621826062E007D6E4F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1C6C4631826062E007D6E4F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E1C6C4741826062E007D6E4F /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1C6C4751826062E007D6E4F /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		E1C6C4861826062E007D6E4F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1C6C4871826062E007D6E4F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1C6C48C1826062E007D6E4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		E1C6C48D1826062E007D6E4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1C6C48F1826062E007D6E4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iCarouselDemo/iCarouselDemo-Prefix.pch";
+				INFOPLIST_FILE = "iCarouselDemo/iCarouselDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E1C6C4901826062E007D6E4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iCarouselDemo/iCarouselDemo-Prefix.pch";
+				INFOPLIST_FILE = "iCarouselDemo/iCarouselDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E1C6C4921826062E007D6E4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iCarouselDemo.app/iCarouselDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iCarouselDemo/iCarouselDemo-Prefix.pch";
+				INFOPLIST_FILE = "iCarouselDemoTests/iCarouselDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E1C6C4931826062E007D6E4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iCarouselDemo.app/iCarouselDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iCarouselDemo/iCarouselDemo-Prefix.pch";
+				INFOPLIST_FILE = "iCarouselDemoTests/iCarouselDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1C6C4511826062E007D6E4F /* Build configuration list for PBXProject "iCarouselDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1C6C48C1826062E007D6E4F /* Debug */,
+				E1C6C48D1826062E007D6E4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1C6C48E1826062E007D6E4F /* Build configuration list for PBXNativeTarget "iCarouselDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1C6C48F1826062E007D6E4F /* Debug */,
+				E1C6C4901826062E007D6E4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E1C6C4911826062E007D6E4F /* Build configuration list for PBXNativeTarget "iCarouselDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1C6C4921826062E007D6E4F /* Debug */,
+				E1C6C4931826062E007D6E4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1C6C44E1826062E007D6E4F /* Project object */;
+}
