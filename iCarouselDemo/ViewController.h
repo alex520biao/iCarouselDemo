@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "iCarousel.h"
+#import "VideoObjectData.h"
+#import "CarouselPageControl.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<iCarouselDataSource, iCarouselDelegate>
 
 @end
